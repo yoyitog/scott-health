@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold; 
+}
+
+h1{
+    color: black;
+}
+
+UL li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+a{
+    color: rgb(220, 228, 231);
+    text-decoration: none;
+}
+
+a:hover{
+    color: greenyellow;
+}
+
+body{
+    background-image: url(/imagenes/img.jpg);
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+p {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(127, 102, 236, 0.747);
+}
