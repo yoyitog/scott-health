@@ -1,67 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link rel="stylesheet" href="css/ramascss.css">
-    
+
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
 
-   <title>registro de centro de ramas </title>
+    <title>Jefes </title>
 </head>
+
 <body>
     <div class="container">
-        <header>Empleados</header>
+        <header>Experiencia Jefes</header>
+        <br>
+        <form action="login/FormularioEJ.php" method="POST">
+            <?php if (isset($_GET['error'])) { ?>
 
-        <form action="#">
+                <p class="=error"><?php echo $_GET['error'] ?></p>
+            <?php } ?>
+            <br>
+            <?php if (isset($_GET['success'])) { ?>
+
+                <p class="=success"><?php echo $_GET['success'] ?></p>
+            <?php } ?>
+            <br>
             <div class="form first">
                 <div class="details personal">
                     <span class="title">DATOS</span>
 
                     <div class="fields">
                         <div class="input-field">
-                            <label>documento</label>
-                            <input type="number" placeholder="N documento" required>
+                            <label>Nombre Empleados</label>
+                            <input type="text" placeholder="Empleados" name="NombreEmpleados">
                         </div>
 
                         <div class="input-field">
-                            <label>Nombre empleado</label>
-                            <input type="text" placeholder="nombre" required>
+                            <label>Numero Empleados</label>
+                            <input type="text" placeholder="Cantidad de empleados" name="Nu_empleados">
                         </div>
 
                         <div class="input-field">
-                            <label>area de trabajo</label>
-                            <input type="text" placeholder="area" required>
+                            <label>Area encargado</label>
+                            <input type="text" placeholder="area" name="Area_encargado">
                         </div>
 
                         <div class="input-field">
-                            <label>codigo experiencia</label>
-                            <input type="number" placeholder="codigo" required>
+                            <label>Nombre jefe</label>
+                            <input type="text" placeholder="Nombre" name="Nombre_jefe">
                         </div>
 
                         <div class="input-field">
-                            <label>edad empleado</label>
-                            <input type="number" placeholder="edad" required>
+                            <label>Codigo jefe</label>
+                            <input type="text" placeholder="codigo" name="Cod_J">
                         </div>
 
                         <div class="input-field">
                             <label>resumen</label>
-                            <input type="text" placeholder="resumen" required>
+                            <input type="text" placeholder="resumen" name="Resumen_J">
                         </div>
                     </div>
                 </div>
-<div>
+                <div>
                     <button class="nextBtn">
                         <span class="btnText">Next</span>
                         <i class="uil uil-navigator"></i>
                     </button>
-                </div> 
+                </div>
             </div>
         </form>
     </div>
 
-    <script src="script.js"></script>
 </body>
+
 </html>

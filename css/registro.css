@@ -5,7 +5,13 @@
   }
   
   body {
-    background: rgb(71, 115, 211);
+    background-image: url(https://tse2.mm.bing.net/th?id=OIG4.IwaPfRacyh7T79oxAL9z&pid=ImgGn);
+    background-position: center;
+    background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
   }
   
   .form-register {
@@ -22,7 +28,7 @@
   
   .form-register h4 {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: -3px;
   }
   
   .controls {
@@ -49,19 +55,19 @@
     text-decoration: none;
   }
   
-  .form-register a:hover {
+  .form-register a:hover{
     color: white;
     text-decoration: underline;
   }
   
-  .regis a {
-    display: flex;
-    justify-content: center;
+  .form-register .btn_enviar {
     width: 100%;
     background: #1f53c5;
     border: none;
     padding: 12px;
     color: white;
-    margin: 16px 0;
+    margin: 10px 0;
     font-size: 16px;
+
   }
+  

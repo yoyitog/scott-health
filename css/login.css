@@ -6,7 +6,9 @@
 }
 
 body {
-    background-image: url(/imagenes/loginf.jpg);
+    background-image: url(https://tse2.mm.bing.net/th?id=OIG3.Rnjh224ILCXow2ltKmeX&pid=ImgGn);
+    background-position: center;
+    background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,35 +61,13 @@ body {
     transform: translateY(-50%);
     font-size: 30px;
 }
-
-.imput-box .remember-forgot {
-    display: flex;
-    justify-content: space-between;
-    font-size: 14.5px;
-    margin: -15px 0 15px;
-}
-
-.remember-forgot label input {
-    accent-color: #fff;
-    margin-right: 3px;
-}
-
-.remember-forgot a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.remember-forgot a:hover {
-    text-decoration: underline;
-}
-
-.bt_seccion a {
+.button {
     display: flex;
     justify-content: center;
     text-decoration: none;
     width: 100%;
     height: 45px;
-    background: #fff;
+    background: #ffffff;
     border: none;
     outline: none;
     border-radius: 40px;

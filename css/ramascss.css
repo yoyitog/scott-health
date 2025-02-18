@@ -11,7 +11,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #4070f4;
+    background: conic-gradient(rgb(15, 23, 42), rgb(88, 28, 135), rgb(15, 23, 42));
 }
 .container{
     position: relative;
@@ -37,7 +37,7 @@ body{
     height: 3px;
     width: 27px;
     border-radius: 8px;
-    background-color: #4070f4;
+    background-color: #9d6baa;
 }
 .container form{
     position: relative;
@@ -87,7 +87,7 @@ form .fields .input-field{
     margin: 4px 0;
 }
 .input-field label{
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 500;
     color: #2e2e2e;
 }
@@ -125,7 +125,7 @@ form .fields .input-field{
     color: #fff;
     border-radius: 5px;
     margin: 25px 0;
-    background-color: #4070f4;
+    background-color: #1d1322;
     transition: all 0.3s linear;
     cursor: pointer;
 }
@@ -134,7 +134,7 @@ form .fields .input-field{
     font-weight: 400;
 }
 form button:hover{
-    background-color: #265df2;
+    background-color: #4f1f66;
 }
 form button i,
 form .backBtn i{
@@ -168,3 +168,4 @@ form .buttons button , .backBtn{
         width: 100%;
     }
 }
+
