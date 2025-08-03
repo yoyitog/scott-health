@@ -41,7 +41,7 @@ if(isset($_SESSION['Id']) && isset($_SESSION['NombreUsuario'])){
                 <li><a href="salario_trabajadores.php">Salario</a></li>
                 <li><a href="ramas.php">Ramas</a></li>
                 <li><a href="login/CerrarSesion.php">cerrar sesion</a></li>
-                <li><a href=""class="action-btn">get star</a></li>
+                <li><a href="home.php"class="action-btn">Atras</a></li>
         </div>
     </header>
 

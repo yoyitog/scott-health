@@ -10,14 +10,15 @@
 <body>
     <header>
         <div class="navbar">
-            <div class="logo"><a href="home.html">NEW NOTIFI</a></div>
+            <div class="logo"><a href="home.php">NEW NOTIFI</a></div>
             <ul class="link">
-                <li><a href="Home.php">Inicio</a> </li>
-                <li><a href="centro de trabajo.html">Centro de trabajo</a></li>
-                <li><a href="sobremi.html"> Propocito</a></li>
-                <li><a href="experiencia jefes.html">Experiencia jefes</a></li>
-                <li><a href="empleados.html">Empleados</a></li>
-                <li><a href="salario trabajores.html">Salario</a></li>
+            <li><a href="Home.php">Inicio</a> </li>
+                <li><a href="centro_de_trabajo.php">Centro de trabajo</a></li>
+                <li><a href="sobremi.php"> Propocito</a></li>
+                <li><a href="experiencia_jefes.php">Experiencia jefes</a></li>
+                <li><a href="empleados.php">Empleados</a></li>
+                <li><a href="salario_trabajadores.php">Salario</a></li>
+                <li><a href="ramas.php">Ramas</a></li>
                 <li><a href="login/CerrarSesion.php">Cerrar sesion</a></li>
             </ul>
             <a href="home.php"class="action-btn">Atras</a>
@@ -27,14 +28,15 @@
         </div>
 
         <div class="drop_menu">
-                <li><a href="Home.php">Inicio</a> </li>
-                <li><a href="centro de trabajo.html">centro de trabajo</a></li>
-                <li><a href="sobremi.html"> propocito</a></li>
-                <li><a href="experiencia jefes.html">Experiencia jefes</a></li>
-                <li><a href="empleados.html">Empleados</a></li>
-                <li><a href="salario trabajores.html">Salario</a></li>
-                <li><a href="login/CerrarSesion.php">cerrar sesion</a></li>
-                <li><a href=""class="action-btn">get star</a></li>
+        <li><a href="Home.php">Inicio</a> </li>
+                <li><a href="centro_de_trabajo.php">Centro de trabajo</a></li>
+                <li><a href="sobremi.php"> Propocito</a></li>
+                <li><a href="experiencia_jefes.php">Experiencia jefes</a></li>
+                <li><a href="empleados.php">Empleados</a></li>
+                <li><a href="salario_trabajadores.php">Salario</a></li>
+                <li><a href="ramas.php">Ramas</a></li>
+                <li><a href="login/CerrarSesion.php">Cerrar sesion</a></li>
+                <li><a href="home.php"class="action-btn">Atras</a></li>
         </div>
     </header>
 
